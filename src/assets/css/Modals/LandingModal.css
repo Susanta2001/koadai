@@ -1,0 +1,20 @@
+.landing-modal{
+    top: 30%;
+    font-family: "Anonymous Pro", serif;
+}
+.modal-content{
+    background-color: white !important;
+    color: black;
+}
+.modal-content button{
+    border: 1px solid white !important;
+    color: white !important;
+
+    &:hover{
+        background-color: #3f7d7b !important;
+        color: black !important;
+    }
+}
+.modal-footer button{
+    border: 1px solid black !important;
+}

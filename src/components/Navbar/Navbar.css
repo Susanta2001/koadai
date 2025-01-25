@@ -1,0 +1,28 @@
+.navbar-left{
+    gap: 12px;
+}
+.navbar-right{
+    gap: 16px !important;
+}
+.navbar-right a{
+    font-family: "Anonymous Pro", monospace;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+        text-decoration: none;
+        color:white;
+    }
+}
+.nav-bar{
+    z-index: 1000;
+}
+.navbar-left i{
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+        color: blue;
+    }
+}
