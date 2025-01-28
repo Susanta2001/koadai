@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../assets/css/BrandingSecond.css'
+// import '../../assets/css/BrandingSecond.css'
 import biImgOne from '../../assets/images/bi-img-one.png'
 import biImgTwo from '../../assets/images/bi-img-two.jpeg'
 import biImgThree from '../../assets/images/bi-img-three.png'

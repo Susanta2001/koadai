@@ -6,6 +6,16 @@ body{
 }
 .fill-btn-effect{
   position: relative;
+  width: max-content;
+  margin: 0px;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  padding: 12px 42px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
 }
 .fill-btn-effect:hover{
   background-color: white;
@@ -63,4 +73,25 @@ body{
     font-size: 24px !important;
     font-weight: 600 !important;
     text-decoration: none;
+}
+/* Header text styles */
+.primary-header{
+  font-size: 6rem;
+}
+.primary-sentence{
+  font-size: 20px;
+  font-weight: 100;
+}
+.secondary-header{
+  font-size: 1.4rem;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+}
+.third-header{
+  font-size: 1.6rem;
+  font-weight: 500 !important;
+}
+.fourth-header{
+  font-size: 18px;
+  font-weight: 100 !important;
 }
