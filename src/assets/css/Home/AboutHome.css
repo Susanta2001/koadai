@@ -17,6 +17,12 @@
     align-items: center;
     background-color: #AB10AE;
     border-radius: 40px;
+    overflow: hidden
+}
+.about-home-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .about-home-right{
     height: auto !important;

@@ -3,6 +3,7 @@ import "../../assets/css/About/Teams.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import '../../assets/css/About/Teams.css';
 // Import team images
 import teamOne from '../../assets/images/ceo.jpg';
 import teamTwo from "../../assets/images/brand-strategist.jpg";
@@ -26,7 +27,7 @@ function Teams() {
   return (
     <div className="slider-container container">
       <h2>Our Team</h2>
-      <Slider {...settings}>
+      <Slider {...settings} className="slider-inner">
         <div>
           <img src={teamOne} alt="Team 1" />
         </div>

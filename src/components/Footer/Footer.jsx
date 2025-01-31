@@ -7,13 +7,14 @@ function Footer() {
   return (
     <>
     <div className='footer-div w-100 h-100 d-flex justify-content-center align-items-center'>
-        <div className="logo-div w-25 d-flex align-items-center justify-content-center h-100 ">
+        <div className="logo-div w-25 d-flex flex-column align-items-center justify-content-center h-100 ">
             <img src={koadaiLogo} alt=""/>
+            <div className="footer-card w-100 h-100">
+                Address: QC28+773, Unnamed Road, Ward 46, Champasari, Siliguri, West Bengal, 734003
+            </div>
         </div>
         <div className="link-div w-75 d-flex">
-            <div className="footer-card w-25 h-100">
-                Koadai is your first choice of making something awesome for your company. Get your K-ticket and make the best brand in your region.
-            </div>
+            
             <div className="footer-card w-25 h-100 justify-content-center d-flex flex-column">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>

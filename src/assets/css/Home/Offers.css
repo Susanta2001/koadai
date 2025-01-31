@@ -1,0 +1,33 @@
+.offers-main{
+    margin-top: 5rem;
+    height: 90vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.offers-main-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.offers-main-inner-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.offers-main-inner-right{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+.offers-main-inner-right img{
+    object-position: center center;
+    object-fit: cover;
+}
+.offers-main-inner-left-btns{
+    display: flex;
+    gap:25px;
+}

@@ -10,7 +10,6 @@ function Office() {
     window.open(whatsappURL, "_blank"); // Opens the WhatsApp chat in a new tab
   };
   return (
-    <div>
       <div className="d-flex office-div ">
         <div className="left-div w-50 ">
           <div className="img-div">
@@ -24,7 +23,6 @@ function Office() {
             </div>
         </div>
       </div>
-    </div>
   );
 }
 

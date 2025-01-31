@@ -1,7 +1,5 @@
-@media (max-width: 425px) {   
-    .back-mountain-div{
-        top: 100px !important;
-    }
+@media (max-width: 426px) {   
+
     .koadaiLogo{
         left: 0px !important;
     }
@@ -17,7 +15,7 @@
         justify-content: space-between !important;
     }
     .navbar-right a{
-        font-size: 20px !important;
+        font-size: 14px !important;
     }
     #home{
         order: 2 !important;
@@ -66,9 +64,6 @@
     .link-div{
         justify-content: space-around;
     }
-    .about-div{
-        margin-top: 20rem;
-    }
     .video-div{
         width: 90% !important;
         top: 5% !important;
@@ -76,6 +71,12 @@
     }
     .about-div{
         padding-left: 2rem !important;
+    }
+    .about-section{
+        height: 60vh !important;
+    }
+    .about-section .banner-img{
+        overflow: hidden;
     }
     .about-text{
         width: 100% !important;
@@ -86,6 +87,9 @@
     }
     .services-banner-text{
         display: none !important;
+    }
+    .service-maindiv{
+        overflow: hidden;
     }
     .service-maindiv-two{
         flex-wrap: wrap;
@@ -102,6 +106,7 @@
     .cardfo{
         top: 12% !important;
     }
+    
     .slider-main h2{
         font-size: 14px !important;
     }
@@ -134,4 +139,284 @@
       .userreg-main{
         display: none !important;
       }
+      /* new response css */
+      /* packages component */
+      .packages-main {
+        margin-top: 3rem;
+        padding-top: 2rem;
+    }
+    .packages-main-inner {
+        gap: 40px;
+    }
+    .packages-main-inner-upper h3,
+    .packages-main-inner-upper p {
+        width: 100% !important;
+        font-size: 24px;
+    }
+    .packages-main-inner-upper p {
+        font-size: 16px;
+    }
+    .packages-main-inner-lower {
+        flex-direction: column;
+        height: 100% !important;
+        gap: 20px;
+    }
+    .packages {
+        width: 90%;
+        height: 100vh !important;
+        padding: 20px 20px;
+    }
+    .packages h3 {
+        font-size: 16px;
+    }
+    .packages p {
+        font-size: 14px;
+    }
+    .pricing-active {
+        height: auto;
+        padding: 20px;
+    }
+    .pricing-active h3 {
+        font-size: 30px;
+    }
+    .pricing-active p {
+        font-size: 16px;
+    }
+    .pricing-inner{
+        padding-top: 3rem;
+    }
+    /* offers component */
+    .offers-main{
+        margin-top: 3rem;
+        padding-top: 2rem;
+        height: 100% !important;
+        width: 100% !important;
+        border-bottom: 1px solid white;
+    }
+    
+    .offers-main-inner{
+        height: 100% !important;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .offers-main-inner-left, 
+    .offers-main-inner-right{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    .offers-main-inner-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .offers-main-inner-left h1{
+        font-size: 3rem;
+    }
+    .offers-main-inner-right{
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .offers-main-inner-right img{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center center;
+    }
+    
+    .offers-main-inner-left-btns{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+   /* about home component */
+   .about-home-main{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 3rem;
+    padding: 20px !important;
+}
+
+    .about-home-left, .about-home-right{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+}
+
+    .about-home-left{
+    justify-content: center;
+    align-items: center;
+    background-color: #AB10AE;
+    border-radius: 20px;
+    height: 100% !important;
+}
+
+    .about-home-right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+    .about-home-right p, .about-home-right div{
+    width: 100% !important;
+    margin: auto;
+}
+
+    .about-home-right button{
+    margin-top: 20px;
+}
+    /* features component */
+    .features-main {
+        margin-top: 3rem;
+        padding-top: 2rem;
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
+    
+    .features-upper {
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .f-u-left{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .f-u-right{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .f-u-right img{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain;
+    }
+    .features-lower {
+        margin-top: 1rem;
+        overflow: hidden;
+        position: relative;
+        width: 100% !important;
+    }
+    
+    .slider {
+        display: flex;
+        width: 100% !important;
+        animation: slide 20s linear infinite;
+    }
+    
+    .slide {
+        flex: 0 0 90%;
+        margin-right: 5%;
+        background-color: #f0f0f0;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        height: 50vh !important;
+    }
+    
+    @keyframes slide {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-95%); }
+        50% { transform: translateX(-190%); }
+        75% { transform: translateX(-285%); }
+        100% { transform: translateX(-380%); }
+    }
+    /* banner component */
+    .banner-main{
+        width: 100% !important;
+        height:  100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        background: url('../../../../public/bannerbg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+    }
+    
+    .banner-left, .banner-right{
+        width:  100% !important;
+        height:  100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        gap: 24px;
+    }
+    .banner-left h1{
+        font-size: 3rem;
+    }
+    /* counter component */
+    .counter-main{
+        background-color: white;
+        width: 100% !important;
+        height: 100% !important;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        gap: 16px;
+    }
+    
+    .counter-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .counter-card h1{
+        font-size: 18px !important;
+    }
+    
+    .counter-card p{
+        font-size: 12px !important;
+        margin: 0;
+        padding: 0;
+    }
+    .btn-div{
+        flex-wrap: wrap;
+    }
+    .branding-inner{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .branding-inner .col-lg-4{
+        width: 90% !important;
+    }
 }

@@ -2,8 +2,9 @@ import React from "react";
 import Banner from "./Banner";
 import Counter from "./Counter";
 import AboutHome from "./AboutHome";
-import Features from "./Features";
 import Office from "./Office";
+import Offers from "./Offers";
+import Packages from "./Packages";
 
 function Home() {
  
@@ -13,7 +14,8 @@ function Home() {
       <Banner />
       <Counter/>
       <AboutHome />
-      <Features/>
+      <Offers/>
+      <Packages/>
       <Office />
     </div>
   );
