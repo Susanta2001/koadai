@@ -1,28 +1,13 @@
 @media (max-width: 426px) {   
-
-    .koadaiLogo{
-        left: 0px !important;
-    }
+    /* these are for mobile view navbar settings */
     .nav-bar{
-        bottom: 0px !important;
-        background-color: black;
-    }
-    .navbar-left{
         display: none !important;
     }
-    .navbar-right{
-        width: 100%;
-        justify-content: space-between !important;
+    .nav-bar-mobile{
+        display: flex !important;
+        justify-content: space-between;
     }
-    .navbar-right a{
-        font-size: 14px !important;
-    }
-    #home{
-        order: 2 !important;
-    }
-    #contact{
-        order: 3 !important;
-    }
+    /* home about us section starts from here */
     .aboutus-second-main p{
             width: 100% !important;
             padding-left: 0% !important;

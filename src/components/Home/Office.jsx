@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/Office.css";
+import "../../assets/css/Office/Office.css";
 import OfficeImg from "../../assets/images/office.jpeg";
 function Office() {
   const whatsappNumber = "918653034994"; // Replace with your WhatsApp number, including the country code (e.g., 91 for India)

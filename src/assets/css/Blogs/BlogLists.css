@@ -1,0 +1,7 @@
+.blog-list{
+    border: 1px solid white;
+    padding-top: 6rem;
+}
+.blog-posts{
+    background-color: rgba(250, 250, 250, 0.3);
+}

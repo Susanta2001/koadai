@@ -4,6 +4,7 @@ body{
   letter-spacing: 2px;
   color: white;
 }
+/* This is for all the buttons used in the website */
 .fill-btn-effect{
   position: relative;
   width: max-content;
@@ -31,7 +32,7 @@ body{
   right: 0;
   top: 100%;
   z-index: -1;
-  -webkit-transition: top 0.09s ease-in;
+  transition: top 0.09s ease-in;
 }
 .fill-btn-effect:hover:before{
   top: 0;
@@ -43,37 +44,8 @@ body{
 .fill-btn-effect:hover a{
   color: black;
 }
-.btn{
-  width: max-content;
-  margin: 0px auto;
-  outline: none;
-  border: none;
-  border-radius: 0px;
-  padding: 12px 42px;
-  text-transform: uppercase;
-  border: 1px solid white;
-  background-color: transparent;
-  color: white;
-}
-/* this is for text loading animation */
-.header-animation{
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: all 1s ease;
-}
-.header-animation.animate{
-  opacity: 1;
-  transform: translateY(0);
-}
-.text-animate{
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: all 1s ease;
-}
-.text-animate.animate{
-  opacity: 1;
-  transform: translateY(0);
-}
+
+/* this is for nav active */
 .active{
   color: #2448E6 !important;
   font-family: "Anonymous Pro", monospace !important;
@@ -82,9 +54,12 @@ body{
     text-decoration: none;
 }
 /* Header text styles */
+/* this is for main header */
 .primary-header{
   font-size: 6rem;
+  font-weight: 800;
 }
+/* this is for main sentence */
 .primary-sentence{
   font-size: 20px;
   font-weight: 100;
@@ -101,4 +76,48 @@ body{
 .fourth-header{
   font-size: 18px;
   font-weight: 100 !important;
+}
+/* ------------------------------------------------------------------------------------- */
+/* Slide in from Right */
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: all 1s ease-in-out;
+}
+.slide-in-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide in from Left */
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: all 1s ease-in-out;
+}
+.slide-in-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide in from Bottom */
+.slide-in-bottom {
+  opacity: 0;
+  transform: translateY(200px);
+  transition: all 1s ease-in-out;
+}
+.slide-in-bottom.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade Up */
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-in-out;
+}
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
 }

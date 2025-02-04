@@ -7,8 +7,8 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Services from "./components/services/ServicePage";
 import Contact from "./components/Contact/Contact";
-import NewYearPage from "./components/Modals/NewYearPage";
 import Pricing from "./components/Pricing/Pricing";
+import Blogs from "./components/Blogs/Blogs";
 
 function App() {
   const router = createBrowserRouter([
@@ -46,7 +46,7 @@ function App() {
       path: "/contact",
       element: (
         <>
-          {/* <Navbar/> */}
+          <Navbar/>
           <Contact />
           <Footer />
         </>
@@ -61,11 +61,20 @@ function App() {
           <Footer/>
         </>
       )
+    },
+    {
+      path: "/blogs",
+      element: (
+        <>
+          <Navbar/>
+          <Blogs/>
+          <Footer/>
+        </>
+      )
     }
   ]);
   return (
     <>
-    <NewYearPage/>
       <RouterProvider router={router} />
     </>
   );

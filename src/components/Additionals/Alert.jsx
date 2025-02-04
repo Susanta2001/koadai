@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/test.css'
+import '../../assets/css/Additionals/Alert.css'
 
 function Alert() {
   return (

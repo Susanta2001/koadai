@@ -1,8 +1,25 @@
 .navbar-left{
+    margin-top: 2rem;
     gap: 12px;
 }
+/* This is for nav-bar mobile */
+.nav-bar-mobile{
+    display: none;
+}
+.nav-bar-mobile-inner-right, .nav-bar-mobile-inner-left{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.nav-bar-mobile-inner-right i{
+    font-size: 42px;
+}
+/* navbar mobile edits ends here */
 .navbar-right{
-    gap: 16px !important;
+    width: 100%;
+    gap: 36px !important;
+    align-items: center;
+    justify-content: center;
 }
 .navbar-right a{
     font-family: "Anonymous Pro", monospace;
@@ -17,12 +34,68 @@
 }
 .nav-bar{
     z-index: 1000;
+    transition: background-color 0.3s ease;
+    top: 0;
 }
 .navbar-left i{
     text-decoration: none;
     color: white;
+    font-size: 24px;
 
     &:hover{
         color: blue;
+        background-color: white;
     }
 }
+.navbar-right a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+        border-bottom: 1px solid white ;
+    }
+}
+.nav-bar.scrolled {
+    background-color: #00223A; /* Adjust the color and opacity as needed */
+  }
+  /* css for offcanvas */
+  .off-canvas{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: right 0.3s ease-in-out;
+  }
+  .off-canvas.show{
+    right: 0;
+  }
+  .close-btn-div{
+    width: 100%;
+    height: auto;
+  }
+  .close-btn-div i{
+    font-size: 42px;
+    color: black;
+  }
+  .menu-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+  }
+  .menu-items a{
+    width: 100%;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 12px 12px;
+    font-weight: 400;
+  }
